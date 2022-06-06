@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+
+* {
+    /*formata todas as propriedades iniciais*/
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.corpoindex {
+    background-color: #F1FF4B;
+    display: block;
+}
+
+
+.imglogo img {
+    width: 35%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0px auto;
+}
+
+.titulo h1 {
+    font-family: "Baloo Da 2";
+    text-align: center;
+    font-size: 3.2rem;
+    color: #2D3277;
+}
+
+.subtitulo h2 {
+    font-family: "Baloo Da 2";
+    text-align: center;
+    color: #2D3277;
+    font-size: 2.9rem;
+}
+
+.subtitulo a {
+    text-decoration: none;
+}
+
+.subtitulo h2:hover {
+    color: black;
+}
+
+
+.cabecalho {
+    background-color: #F1FF4B;
+    width: 100%;
+    height: 215px;
+}
+
+.logo1 {
+    width: 14%;
+    margin-left: 4%;
+}
+
+.logo2 {
+    width: 14%;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.barra {
+    width: 100%;
+    height: 55px;
+    background-color: #2D3277;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
+    display: flex;
+    font-family: "Josefin Sans";
+}
+
+.barra a {
+    text-decoration: none;
+    margin-top: 20px;
+    margin: 21px;
+    color: #F1FF4B;
+}
+
+.barra a:hover {
+    color: whitesmoke;
+}
+
+.selecao h1 {
+    font-family: "Baloo Da 2";
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+
+.corpoeletronico{
+    background-color: #eee;
+}
+
+.eletronicos {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-rows: repeat (3, 8rem);
+    row-gap: 3rem;
+    background-color: #eee;
+}
+
+.eletronico:nth-child(1) {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.eletronico:nth-child(2) {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.eletronico:nth-child(3) {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.eletronico:nth-child(4) {
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+}
+
+.eletronico:nth-child(5) {
+    grid-column: 5 / 5;
+    grid-row: 1 / 1;
+}
+
+.eletronico:nth-child(6) {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.eletronico:nth-child(7) {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+}
+
+.eletronico:nth-child(8) {
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+
+.eletronico:nth-child(9) {
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+
+.eletronico:nth-child(10) {
+    grid-column: 5 / 5;
+    grid-row: 3 / 3;
+}
+.eletronico {
+    margin: 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eletronico-text {
+    font-family: "Baloo Da 2";
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.comprar {
+    font-family: "Mulish";
+    font-size: 1rem;
+    color: #2D3277;
+    text-align: center;
+}
+
+.comprar a {
+    text-decoration: none;
+}
+
+.comprar a:hover {
+    color: #878d41;
+}
+
+.corpoeletrodomes{
+    background-color: #eee;
+}
+
+.eletrodomesticos {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-rows: repeat (3, 8rem);
+    row-gap: 3rem;
+    background-color: #eee;
+}
+
+.eletrodomestico:nth-child(1) {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.eletrodomestico:nth-child(2) {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.eletrodomestico:nth-child(3) {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.eletrodomestico:nth-child(4) {
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+}
+
+.eletrodomestico:nth-child(5) {
+    grid-column: 5 / 5;
+    grid-row: 1 / 1;
+}
+
+.eletrodomestico:nth-child(6) {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.eletrodomestico:nth-child(7) {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+}
+
+.eletrodomestico:nth-child(8) {
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+
+.eletrodomestico:nth-child(9) {
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+
+.eletrodomestico:nth-child(10) {
+    grid-column: 5 / 5;
+    grid-row: 3 / 3;
+}
+.eletrodomestico {
+    margin: 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eletrodomestico-text {
+    font-family: "Baloo Da 2";
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.roupas {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-rows: repeat (3, 8rem);
+    row-gap: 3rem;
+    background-color: #eee;
+}
+
+.roupa:nth-child(1) {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.roupa:nth-child(2) {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.roupa:nth-child(3) {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+
+.roupa:nth-child(4) {
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+}
+
+.roupa:nth-child(5) {
+    grid-column: 5 / 5;
+    grid-row: 1 / 1;
+}
+
+.roupa:nth-child(6) {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.roupa:nth-child(7) {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+}
+
+.roupa:nth-child(8) {
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+
+.roupa:nth-child(9) {
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+
+.roupa:nth-child(10) {
+    grid-column: 5 / 5;
+    grid-row: 3 / 3;
+}
+.roupa {
+    margin: 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+.roupa-text {
+    font-family: "Baloo Da 2";
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
